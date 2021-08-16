@@ -39,4 +39,4 @@ I Feel I have a strong grasp on many of the simple things of css and html but re
 (./images/Week2ScreenShot)
 
 # Link
-[Link to the website](https://bcole37.github.io/Horiseon-Code-Refractor/)
+[Link to the website](https://bcole37.github.io/Live-Portfolio/)
