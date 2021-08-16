@@ -1,0 +1,247 @@
+/* sets universal parameters */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets universal color variable */
+
+:root {
+    --dark-turquoise: #2589bd;
+}
+
+/*Body color */
+body {
+    background-color: white;
+}
+
+/*Header formatting and color */
+.header {
+    padding: 20px;
+    /*The font in descending order if not found on computer so if Trebuchet isnt found move onto Lucida Sans unicode and so on*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkslategrey;
+    color: var(--dark-turquoise);
+
+}
+/*Header fromatting and size doesnt require color as universal color applied in body */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color:indigo;
+}
+
+/*a div tag to hold the ul and formatting the float right is what places it on the right */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: var(--dark-turquoise);
+
+}
+
+/*Shows how the list will be displayed by defining postioning */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: var(--dark-turquoise);
+    padding-right: 25px;
+    font-size:  24px;
+    text-decoration: underline;
+
+}
+
+/*h2 and h3 here are setting postions and font size for h2 and h3 tags */
+h2{
+    font-size: 48px;
+    margin-bottom: 15%;
+    color: var(--dark-turquoise);
+    text-indent: 8%;
+
+}
+
+
+
+/*Text color for the nav links */
+a {
+    color: var(--dark-turquoise);
+    text-decoration: none;
+}
+
+/* font size for the text */
+p {
+    font-size: 28px;
+    margin-bottom: 3%;
+    color: var(--dark-turquoise);
+    
+
+}
+
+/*Placing the background image of the meeting setting its display settings wtih hieght, width, postion etc. */
+.backgroundImage {
+    height: 400px;
+    width: 25%;
+    margin-bottom: 25px;
+    background-image: url("../images/image-of-me.jpg");
+    background-size: 400px;
+    background-position: center;
+    margin-left: 35%;
+}
+
+/*Image placed on the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Image placed on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*How the content will be displayed widht what % of screen and an inline block */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+/*How the aside section will be displayed */
+.titles {
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    text-align: right;
+    border-right: 6px solid var(--dark-turquoise);
+    ;
+}
+
+/*Spacing and color settings */
+.About-Me {
+    margin-bottom: 103%;
+    color: #ffffff;
+}
+
+.Work {
+    margin-bottom: 205%;
+    color: #ffffff;
+}
+
+.Contact-Me {
+    color: #ffffff;
+}
+
+
+
+/*Section formatting */
+.about-Me-Section {
+    margin-bottom: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+.Work-Section {
+    margin-bottom: 23%;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+.Contact-Me-Section {
+    margin-bottom: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+/*formatting for the contact me section */
+
+.Contact-Me-Section div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: var(--dark-turquoise);
+    padding-right: 10%;
+    font-size:  28px;
+
+}
+
+.Work-Section div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+/*sets the background image and then the size  */
+
+.Work-Section-1{
+    height: 92%;
+    width: 92%;
+    margin-bottom: 25px;
+    background-image: url("../images/Code-Refractor.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid teal;
+    display: block;
+    cursor: pointer;
+
+}
+
+
+.Work-Section-2{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 25px;
+    margin: 10px;
+    background-image: url("../images/download.JFIF");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid teal;
+}
+
+.Work-Section-3{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 25px;
+    margin: 10px;
+    background-image: url("../images/download-1.JFIF");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid teal;
+
+}
+/*positions the textbox on the background image */
+
+.bottom-left {
+    flex: end;
+    justify-content: flex-start;
+    z-index: 9999999;
+    background-color: teal;
+    width: 10%;
+    height: 20%;
+    font-size: 24px;
+    border: 2px solid white;
+    transform: scale(1) translate(-0%, 350%);
+    color: white;
+}
+.bottom-left-small {
+    flex: end;
+    z-index: 9999999;
+    background-color: teal;
+    width: 10%;
+    height: 20%;
+    font-size: 11px;
+    border: 2px solid white;
+    transform: scale(1) translate(-0%, 350%);
+    color: white;
+}
+
