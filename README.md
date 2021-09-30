@@ -14,7 +14,6 @@ Formatting and making the site look proffesional
 # Problems Solved
 That being said there were numerous problems I addressed in new ways.
 -I was able to replicate and alter the navigation bar from the first code and adjust it to my purposes which shows to me I am comfertable if I can repeat and alter without messing it up.
--I Repurposed much of the text from the first homework and reorginized whihc a=gain being able to reuse bits and pieces from somtehing shows the knowledge of it
 -I added a background image along with the title, header, and Nav bar
 -I made an aside section that had a right border and the titles for each section
 -I broke up the main content into three very distinct sections.
