@@ -28,7 +28,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    background-color:indigo;
 }
 
 /*a div tag to hold the ul and formatting the float right is what places it on the right */
@@ -200,7 +199,7 @@ p {
     width: 45%;
     margin-bottom: 25px;
     margin: 10px;
-    background-image: url("../images/download.jpg");
+    background-image: url("../images/MusicTrivia.PNG");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -212,7 +211,31 @@ p {
     width: 45%;
     margin-bottom: 25px;
     margin: 10px;
-    background-image: url("../images/download-1.jpg");
+    background-image: url("../images/Weather.PNG");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid teal;
+
+}
+.Work-Section-4{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 25px;
+    margin: 10px;
+    background-image: url("../images/Work.PNG");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid teal;
+
+}
+.Work-Section-5{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 25px;
+    margin: 10px;
+    background-image: url("../images/Password.PNG");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
